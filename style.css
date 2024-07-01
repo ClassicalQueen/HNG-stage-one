@@ -16,7 +16,7 @@ body {
 
 /* Navbar Styling */
 nav {
-    background-color: #333;
+    background-color: rgb(39, 107, 107);
     padding: 10px;
     text-align: center;
     position: relative;
@@ -54,7 +54,7 @@ nav .nav-list li a {
 }
 
 nav .nav-list li a button {
-    background-color: #333;
+    background-color: rgb(39, 107, 107);
     color: #fff;
     border: none;
     font-size: 16px;
