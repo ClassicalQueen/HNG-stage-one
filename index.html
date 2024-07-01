@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Tech Goals</title>
+
+    <!-- CSS STYLESHEET -->
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section data-testid="mainContent" id="main">
+      <!-- NAVIGATION -->
+      <section data-testid="navBar">
+        <nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#about"><button>About Me</button></a></li>
+                <li><a href="#journey"><button>My Tech Journey</button></a></li>
+                <li><a href="#goals"><button>My Goals</button></a></li>
+                <li><a href="#contact"><button>Contact</button></a></li>
+                <li><a href="#links"><button>Useful Links</button></a></li>
+            </ul>
+        </nav>
+      </section>
+
+      <!-- DATE AND TIME -->
+      <section data-testid="currentTime" id="currentTimeSection">
+        <p data-testid="currentTimeUTC">
+          Current Time in UTC: <span id="utcTime"></span>
+        </p>
+        <p data-testid="currentDay" class="day">
+          Current Day of the Week: <span id="dayOfWeek"></span>
+        </p>
+      </section>
+
+      <!-- SLACK DETAILS -->
+      <header data-testid="header">
+        <img
+          src="./assets/author-photo.jpg"
+          alt="Author's Photo"
+          data-testid="slackProfilePicture"
+        />
+        <h1 data-testid="slackFullName">Slack Full Name: Desiree Onyinyechi Chukwuji</h1>
+        <h1 data-testid="slackDisplayName">Slack ID: Desiree</h1>
+        <p data-testid="slackEmail">Slack Email: queendesi06@gamil.com</p>
+      </header>
+
+      <!-- ABOUT ME -->
+      <section data-testid="aboutMe" id="about">
+        <h1>About Me</h1>
+        <p id="texts">
+          My name is Desiree, I was born on July 3rd 2006. I am a software
+          developer with a passion for creating solutions that solve real-world
+          problems. I am proficient in JavaScript, and ReactJS. I have also
+          worked with VueJS. I have recently finished a project that fetches my
+          GitHub repositories and the details of each project. I am a student of
+          AltSchool Africa, studying Frontend Engineering and Technical Writing
+          as a side course. I love to read, and write novels. I am also a coding
+          tutor at Beats By Dara where I teach kids how to code.
+        </p>
+
+        <!-- MY PROJECTS -->
+        <h2>My Projects</h2>
+        <div data-testid="projectContainer" id="mini">
+          <div data-testid="emailProject" class="Email">
+            <h3>Email Verification Project</h3>
+            <img
+              src="./assets/email-snapshot.png"
+              alt="Email Verification Project"
+            />
+            <p>
+              <a href="https://email-verification-pi.vercel.app/"
+                >Check it out here</a
+              >
+            </p>
+          </div>
+          <div data-testid="vueProject" class="pro">
+            <h3>VueRepoApp Project</h3>
+            <img src="./assets/project-snapshot.png" alt="VueRepoApp Project" />
+            <p>
+              <a href="https://vue-repo-app-neon.vercel.app/"
+                >Check it out here</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- TECH JOURNEY -->
+      <section data-testid="techJourney" id="journey">
+        <h2>My Tech Journey</h2>
+        <p id="texts">
+          Throughout my secondary school days, I have always wanted to do
+          something relating to computers and so I chose to enter the science
+          department. A year after my secondary school, I started an online
+          program at AltSchool Africa, where I'm currently learning Frontend
+          Engineering. It hasn't been easy but over the past nine months, I have
+          gone from a total newbie to an intermediate level developer who is
+          proficient in HTML, CSS, JavaScript, and ReactJS. I was thinking of a
+          way to further my skills when I heard about the HNG internship which I
+          recently applied to because it keeps you on your toes and helps you
+          polish your skills more through the tasks given at each stage.
+        </p>
+      </section>
+
+      <!-- MY GOALS -->
+      <section data-testid="myGoals" id="goals">
+        <h2>My Goals</h2>
+        <p id="texts">
+          In the next two years, my aim is to become a Certified Frontend
+          Engineer. I aspire to complete the HNG internship as a finalist and
+          advance my skills in technical writing. Additionally, I hope to secure
+          a position as a frontend engineer in a reputable company and develop
+          several projects that address real-life problems.
+        </p>
+      </section>
+
+      <!-- CONTACT DETAILS -->
+      <section data-testid="contacts" id="contact">
+        <h2>Contact</h2>
+        <p>
+          Github Profile: <a href="https://github.com/ClassicalQueen">Github</a>
+        </p>
+        <p>
+          LinkedIn Profile:
+          <a href="http://www.linkedin.com/in/desiree-chukwuji-01489728b"
+            >LinkedIn</a
+          >
+        </p>
+      </section>
+
+      <!-- IMPORTANT LINKS -->
+      <section data-testid="links" id="links">
+        <h2>Useful Links</h2>
+        <p>
+          <a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
+        </p>
+        <p>
+          <a href="https://keyword.dog" data-testid="keywordLink"
+            >Keyword Dog</a
+          >
+        </p>
+        <p>
+          <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink"
+            >Scrape Any Web</a
+          >
+        </p>
+      </section>
+    </section>
+
+    <!-- FOOTER -->
+    <footer data-testid="footer">
+      <p>&copy; 2024 Desiree Onyinyechi Chukwuji</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
