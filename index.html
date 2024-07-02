@@ -13,20 +13,30 @@
       <!-- NAVIGATION -->
       <section data-testid="navBar">
         <nav>
-            <div class="menu-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="nav-list">
-                <li><a href="#about"><button>About Me</button></a></li>
-                <li><a href="#journey"><button>My Tech Journey</button></a></li>
-                <li><a href="#goals"><button>My Goals</button></a></li>
-                <li><a href="#contact"><button>Contact</button></a></li>
-                <li><a href="#links"><button>Useful Links</button></a></li>
-            </ul>
+          <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="nav-list">
+            <li>
+              <a href="#about"><button>About Me</button></a>
+            </li>
+            <li>
+              <a href="#journey"><button>My Tech Journey</button></a>
+            </li>
+            <li>
+              <a href="#goals"><button>My Goals</button></a>
+            </li>
+            <li>
+              <a href="#contact"><button>Contact</button></a>
+            </li>
+            <li>
+              <a href="#links"><button>Useful Links</button></a>
+            </li>
+          </ul>
         </nav>
-    </section>
+      </section>
 
       <!-- DATE AND TIME -->
       <section data-testid="currentTime" id="currentTimeSection">
@@ -40,12 +50,17 @@
 
       <!-- SLACK DETAILS -->
       <header data-testid="header">
-        <img
-          src="./assets/author-photo.jpg"
-          alt="Author's Photo"
-          data-testid="slackProfilePicture"
-        />
-        <h1 data-testid="slackFullName">Slack Full Name: Desiree Onyinyechi Chukwuji</h1>
+        <div class="box">
+          <img
+            src="./assets/author-photo.jpg"
+            alt="Author's Photo"
+            class="image"
+            data-testid="slackProfilePicture"
+          />
+        </div>
+        <h1 data-testid="slackFullName">
+          Slack Full Name: Desiree Onyinyechi Chukwuji
+        </h1>
         <h1 data-testid="slackDisplayName">Slack ID: Desiree</h1>
         <p data-testid="slackEmail">Slack Email: queendesi06@gamil.com</p>
       </header>
